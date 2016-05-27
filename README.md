@@ -26,7 +26,7 @@ it, simply add the following line to your Podfile:
 pod 'Bluuur'
 ```
 
-Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), simply add RuntimeRoutines to your `Cartfile`:
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), simply add Bluuur to your `Cartfile`:
 
 ```
 github "ML-Works/Bluuur"
