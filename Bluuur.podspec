@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ML-Works/Bluuur'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Anton Bukov' => 'k06aaa@gmail.com' }
+  s.author           = { 'Anton Bukov' => 'k06a@mlworks.com' }
   s.source           = { :git => 'https://github.com/ML-Works/Bluuur.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/k06a'
 
