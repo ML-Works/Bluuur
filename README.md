@@ -7,11 +7,15 @@
 
 This UIVisualEffectsView subclass allows to dynamically adjust blur radius by changing property blurProgress from 0.0 to 1.0.
 
-<img width="30%" src="Bluuur.png">
+<img width="100%" src="images/This-is-Bluuur.jpg">
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+You will be able to move blur view and change blur radius.
+
+<img width="30%" src="images/Bluuur.png">
 
 ## Requirements
 
