@@ -2,6 +2,7 @@
 
 [![CI Status](http://img.shields.io/travis/ML-Works/Bluuur.svg?style=flat)](https://travis-ci.org/ML-Works/Bluuur)
 [![Version](https://img.shields.io/cocoapods/v/Bluuur.svg?style=flat)](http://cocoapods.org/pods/Bluuur)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Bluuur.svg?style=flat)](http://cocoapods.org/pods/Bluuur)
 [![Platform](https://img.shields.io/cocoapods/p/Bluuur.svg?style=flat)](http://cocoapods.org/pods/Bluuur)
 
@@ -38,7 +39,7 @@ github "ML-Works/Bluuur"
 
 ## Author
 
-Anton Bukov, k06aaa@gmail.com
+Anton Bukov, k06a@mlworks.com
 
 ## License
 
