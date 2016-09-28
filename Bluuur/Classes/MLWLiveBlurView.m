@@ -6,8 +6,6 @@
 //  Copyright © 2016 MachineLearningWorks. All rights reserved.
 //
 
-#import <libextobjc/extobjc.h>
-
 #import "MLWLiveBlurView.h"
 
 @interface MLWLiveBlurView ()
@@ -30,14 +28,14 @@
 
     UIVisualEffect *effect = self.effectToRecover ?: self.effect;
     self.effect = nil;
-    @weakify(self);
+    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:1.0
         animations:^{
             self.animationStopped = NO;
             self.effect = effect;
         }
         completion:^(BOOL finished) {
-            @strongify(self);
+            typeof(self) self = weakSelf;
             [self stopAnimation];
         }];
 
@@ -77,23 +75,23 @@
     }
 
     if (self.window) {
-        @weakify(self);
+        __weak typeof(self) weakSelf = self;
 
         self.blurProgressToRecover = self.blurProgress;
         self.blurProgress = 0;
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.03 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            @strongify(self);
+            typeof(self) self = weakSelf;
             self.blurProgress = self.blurProgressToRecover;
         });
 
         self.mlw_observer_resign = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationWillResignActiveNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification *_Nonnull note) {
-            @strongify(self);
+            typeof(self) self = weakSelf;
             self.wasSuspended = YES;
             [self stopAnimation];
         }];
 
         self.mlw_observer_active = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidBecomeActiveNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification *_Nonnull note) {
-            @strongify(self);
+            typeof(self) self = weakSelf;
             if (!self.wasSuspended) {
                 return;
             }
