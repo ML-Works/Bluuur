@@ -1,5 +1,5 @@
 PODS:
-  - Bluuur (0.1.1)
+  - Bluuur (0.2.0)
 
 DEPENDENCIES:
   - Bluuur (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Bluuur: 83fac07e4351c1ea56c80b9dd05e73756961a2f6
+  Bluuur: 0ecd8e3b71e1375269fb04722e2183f840a5b0b2
 
 PODFILE CHECKSUM: 41475f7716e4afde787748ff1ba3dcb1ba857ae9
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
