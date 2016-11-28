@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="whP-gf-Uak">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="NO" initialViewController="whP-gf-Uak">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,34 +15,34 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WrS-VM-nIE">
-                                <rect key="frame" x="16" y="20" width="288" height="490"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium at massa at molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut accumsan vulputate lobortis. Maecenas gravida ipsum nec orci lobortis, quis lacinia massa ultrices. Aenean tempor consequat nibh. Curabitur non erat ac ex viverra mollis et in nisi. Sed varius ac eros at tempor. In luctus mi nec feugiat aliquet. Duis in nulla in metus pulvinar mollis. Nulla facilisi. Aliquam tristique quis ipsum vulputate accumsan. Duis sollicitudin facilisis justo, vel accumsan libero commodo a. Nam nulla neque, iaculis eu ligula et, accumsan interdum dolor. Sed ullamcorper venenatis lacus, ac dignissim orci scelerisque sit amet. Duis venenatis quam at nibh condimentum, ac ultricies ex gravida.
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WrS-VM-nIE">
+                                <rect key="frame" x="16" y="20" width="343" height="589"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium at massa at molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut accumsan vulputate lobortis. Maecenas gravida ipsum nec orci lobortis, quis lacinia massa ultrices. Aenean tempor consequat nibh. Curabitur non erat ac ex viverra mollis et in nisi. Sed varius ac eros at tempor. In luctus mi nec feugiat aliquet. Duis in nulla in metus pulvinar mollis. Nulla facilisi. Aliquam tristique quis ipsum vulputate accumsan. Duis sollicitudin facilisis justo, vel accumsan libero commodo a. Nam nulla neque, iaculis eu ligula et, accumsan interdum dolor. Sed ullamcorper venenatis lacus, ac dignissim orci scelerisque sit amet. Duis venenatis quam at nibh condimentum, ac ultricies ex gravida.
 
 Phasellus et orci ut eros aliquet consequat malesuada eu erat. Donec convallis porttitor mollis. Quisque tincidunt arcu a tellus faucibus sodales. Aenean efficitur diam non lectus malesuada, ut lacinia lorem ultricies. Etiam faucibus lacus finibus ante sagittis, lacinia consequat diam suscipit. Nam tristique, libero eu ultricies venenatis, elit turpis consectetur eros, sit amet semper nunc purus et purus. Nulla facilisi. Sed tempor iaculis elit, sed condimentum leo tincidunt vel.
 
-Vestibulum non dui elementum, rhoncus sem a, venenatis ex. Vestibulum tristique ornare convallis. Morbi ut imperdiet nibh, a posuere diam. Integer sodales ornare nisl sit amet cursus. Phasellus finibus, odio ut laoreet condimentum, elit risus faucibus turpis, sed egestas nisl mauris sit amet ante. Nunc dictum lectus dui. Maecenas non libero dolor. Suspendisse in cursus ligula. Donec tincidunt massa nulla, vel ullamcorper nisl sagittis molestie.</mutableString>
+Vestibulum non dui elementum, rhoncus sem a, venenatis ex. Vestibulum tristique ornare convallis. Morbi ut imperdiet nibh, a posuere diam. Integer sodales ornare nisl sit amet cursus. Phasellus finibus, odio ut laoreet condimentum, elit risus faucibus turpis, sed egestas nisl mauris sit amet ante. Nunc dictum lectus dui. Maecenas non libero dolor. Suspendisse in cursus ligula. Donec tincidunt massa nulla, vel ullamcorper nisl sagittis molestie.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BOs-F3-KaR">
-                                <rect key="frame" x="14" y="518" width="292" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BOs-F3-KaR">
+                                <rect key="frame" x="14" y="617" width="347" height="31"/>
                                 <connections>
                                     <action selector="radiusChanged:" destination="whP-gf-Uak" eventType="valueChanged" id="g9G-KE-4mp"/>
                                 </connections>
                             </slider>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azS-La-ISL" customClass="MLWLiveBlurView">
-                                <rect key="frame" x="85" y="209" width="150" height="150"/>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azS-La-ISL" customClass="MLWLiveBlurView">
+                                <rect key="frame" x="113" y="259" width="150" height="150"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UIF-1d-8iJ">
                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag me!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsa-7K-dNT">
-                                            <rect key="frame" x="40" y="121" width="70.5" height="21"/>
+                                            <rect key="frame" x="39" y="121" width="71" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -64,7 +64,7 @@ Vestibulum non dui elementum, rhoncus sem a, venenatis ex. Vestibulum tristique 
                                 <blurEffect style="light"/>
                             </visualEffectView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="WrS-VM-nIE" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="Dp9-h1-0dX"/>
                             <constraint firstItem="BOs-F3-KaR" firstAttribute="top" secondItem="WrS-VM-nIE" secondAttribute="bottom" constant="8" id="KOZ-2E-BfQ"/>
@@ -91,4 +91,9 @@ Vestibulum non dui elementum, rhoncus sem a, venenatis ex. Vestibulum tristique 
             <point key="canvasLocation" x="162" y="409"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>

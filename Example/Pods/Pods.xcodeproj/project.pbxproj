@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		288F2D3BCD7EC9CCECBA6EC234D93CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		2C2AA0A0B29F79E4027AB7D14B9BC831 /* Pods-Bluuur_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1B9A676EF8FF1CCFE16988A2B3648 /* Pods-Bluuur_Tests-dummy.m */; };
-		3178381E648EB3AE354D7C2928D140F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		32F25EE2801259C88B25994D8AB4308C /* Pods-Bluuur_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3D9470A6D11F87813D2DC820262597 /* Pods-Bluuur_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EE0CD1AA24E0397C91F1435E5E6A64D /* Bluuur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCA9477FAFAFD161B0567B4519B02C /* Bluuur-dummy.m */; };
-		5A68C2EBBE8DEDAEDAD50D2291D47A4C /* MLWLiveBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F7F15A0AC5CD9C949DE5C7D9456F6CC /* MLWLiveBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */; };
-		88A8BE71DA27DF48392A4CA61D131B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		89B5D6A7CF6CC62953966D43C16C8A39 /* Pods-Bluuur_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6F577735D2E966BEAC45E8CD88CE1 /* Pods-Bluuur_Example-dummy.m */; };
-		B440322CD26E3E1AC80970D1CE0442C7 /* Bluuur.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC59614ECC365C9803EDE76589903DB /* Bluuur.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C45D04B1333ADFECFD6BFBE05610604C /* Bluuur-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F829D5B03717FF6DAD466EA42B3392 /* Bluuur-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E178E7F83F459339D0564EDD410774EF /* Pods-Bluuur_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 869CD6F059DFDB7A0CBA37E077B5BDC0 /* Pods-Bluuur_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07C2E9F95814BCD714585F616C517359 /* MLWLiveBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12716F72C52BC60AD3EA9B23B9E56266 /* Pods-Bluuur_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1B9A676EF8FF1CCFE16988A2B3648 /* Pods-Bluuur_Tests-dummy.m */; };
+		24B6735117D521B7EA5A7563A1B68194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5252191308B959FDBF72AEC59E977112 /* Bluuur.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC59614ECC365C9803EDE76589903DB /* Bluuur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68260CC89B8B858608883E3465858347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		73344FDFC6CF1846C70BC92C593C06BC /* Pods-Bluuur_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6F577735D2E966BEAC45E8CD88CE1 /* Pods-Bluuur_Example-dummy.m */; };
+		7890E2B7933326A12CC08BEE56A57091 /* Pods-Bluuur_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 869CD6F059DFDB7A0CBA37E077B5BDC0 /* Pods-Bluuur_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8384389320B3E020C49BEDD8EF12BC61 /* Pods-Bluuur_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3D9470A6D11F87813D2DC820262597 /* Pods-Bluuur_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DBCA395AB26700F98CFB118AC2358EF /* MLWLiveBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */; };
+		A547BA2E4654CFC1D17F4CA9EE10D681 /* Bluuur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCA9477FAFAFD161B0567B4519B02C /* Bluuur-dummy.m */; };
+		BE12167DB5DA7A5E1845A8CA3BD5FC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E37C316CC68DC0D8A3403DB8963F8D1E /* Bluuur-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F829D5B03717FF6DAD466EA42B3392 /* Bluuur-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F9EB460EA3DC9B97A30C8B3A3854FBC /* PBXContainerItemProxy */ = {
+		91C6D0FC12CAF51E6FCBD7EB834681AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ECC1C2FAB6594EE377FDE80918D182FD;
+			remoteGlobalIDString = 0C6428D5B829BCE6C54ECE2D559247E3;
 			remoteInfo = Bluuur;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,31 +34,31 @@
 /* Begin PBXFileReference section */
 		0101E7EC5E40A7061129A15DB2810917 /* Pods-Bluuur_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bluuur_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		084C71E69C408928A367CCCD603FE1D6 /* Pods-Bluuur_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bluuur_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11311045D1D6388D322F3E8EF9FD932F /* Pods-Bluuur_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Bluuur_Tests.modulemap"; sourceTree = "<group>"; };
+		11311045D1D6388D322F3E8EF9FD932F /* Pods-Bluuur_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Bluuur_Tests.modulemap"; sourceTree = "<group>"; };
 		13B1B9A676EF8FF1CCFE16988A2B3648 /* Pods-Bluuur_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bluuur_Tests-dummy.m"; sourceTree = "<group>"; };
-		1C98ABD51B54289737A9FD0E5BB1A282 /* Bluuur.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bluuur.modulemap; sourceTree = "<group>"; };
+		1C98ABD51B54289737A9FD0E5BB1A282 /* Bluuur.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Bluuur.modulemap; sourceTree = "<group>"; };
 		3250DC9934F53A0A9B6D1C9A1ECF5730 /* Pods-Bluuur_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bluuur_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3596A1167693643B3C1282953ABB9391 /* Pods-Bluuur_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		36F829D5B03717FF6DAD466EA42B3392 /* Bluuur-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bluuur-umbrella.h"; sourceTree = "<group>"; };
 		374A85F57987B81A6AAE9B86A329EFFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B6F577735D2E966BEAC45E8CD88CE1 /* Pods-Bluuur_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bluuur_Example-dummy.m"; sourceTree = "<group>"; };
 		43083B8152510C00B348D236247D42D1 /* Pods-Bluuur_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bluuur_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4358CAFCAFAAF25E373E4ED7D9492964 /* Pods-Bluuur_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Bluuur_Example.modulemap"; sourceTree = "<group>"; };
+		4358CAFCAFAAF25E373E4ED7D9492964 /* Pods-Bluuur_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Bluuur_Example.modulemap"; sourceTree = "<group>"; };
 		445264CF4403097DACB916F7D8E8C467 /* Pods-Bluuur_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bluuur_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B127193FC54496485B4E273CA1E34C5 /* Bluuur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bluuur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B127193FC54496485B4E273CA1E34C5 /* Bluuur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bluuur.framework; path = Bluuur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFB31BA2F56B96FA3507994EA5AD307 /* Bluuur.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bluuur.xcconfig; sourceTree = "<group>"; };
-		7A9E35CA75039D853427F4AA9C259F5C /* Pods_Bluuur_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluuur_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9E35CA75039D853427F4AA9C259F5C /* Pods_Bluuur_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bluuur_Example.framework; path = "Pods-Bluuur_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB52CF70E86BD88FB43EA758D6DFA35 /* Pods-Bluuur_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7F9A38AA8A143BE43F2C5CFE7CA83C3A /* Pods-Bluuur_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Tests-resources.sh"; sourceTree = "<group>"; };
 		869CD6F059DFDB7A0CBA37E077B5BDC0 /* Pods-Bluuur_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bluuur_Example-umbrella.h"; sourceTree = "<group>"; };
 		8F3D9470A6D11F87813D2DC820262597 /* Pods-Bluuur_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bluuur_Tests-umbrella.h"; sourceTree = "<group>"; };
-		91044697EA28A30D8F5D94F746EA7707 /* Pods_Bluuur_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluuur_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91044697EA28A30D8F5D94F746EA7707 /* Pods_Bluuur_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bluuur_Tests.framework; path = "Pods-Bluuur_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWLiveBlurView.h; sourceTree = "<group>"; };
 		AE506473F03C147C9C4A5CFC0164D097 /* Pods-Bluuur_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bluuur_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B32574052699E0A7E3E3295863F8F5B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08A11A009C184E0C3BCBAEA73926932 /* Pods-Bluuur_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Example-resources.sh"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWLiveBlurView.m; sourceTree = "<group>"; };
 		D2DD7D1B1C8222EEDDBC483D7BFCC0D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED540707C34A4975DA8CB4BB91720F2 /* Pods-Bluuur_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bluuur_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -69,27 +69,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D2C83593A0FA8E9FE2AA9C4ADB042E2 /* Frameworks */ = {
+		80A68B2424412F404FC00ABE836555EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288F2D3BCD7EC9CCECBA6EC234D93CDB /* Foundation.framework in Frameworks */,
+				BE12167DB5DA7A5E1845A8CA3BD5FC25 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D526FB17F25FF4C8F2E83C302DD29F1F /* Frameworks */ = {
+		84FB1B836AD149C748BE230C9637D228 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A8BE71DA27DF48392A4CA61D131B7D /* Foundation.framework in Frameworks */,
+				24B6735117D521B7EA5A7563A1B68194 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB5BD60A603781F1F918BFE83979C025 /* Frameworks */ = {
+		860FAB5ACA58A036834664C631AEB083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3178381E648EB3AE354D7C2928D140F9 /* Foundation.framework in Frameworks */,
+				68260CC89B8B858608883E3465858347 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +132,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -156,6 +156,7 @@
 			children = (
 				9B4849272ECBED7FB20FC35C5E634549 /* Classes */,
 			);
+			name = Bluuur;
 			path = Bluuur;
 			sourceTree = "<group>";
 		};
@@ -166,13 +167,14 @@
 				A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */,
 				D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,77 +233,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14B37E745DFE55A67F5834410A8308B6 /* Headers */ = {
+		16DB14D644395CABA5DB9A6D63371F5A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F25EE2801259C88B25994D8AB4308C /* Pods-Bluuur_Tests-umbrella.h in Headers */,
+				8384389320B3E020C49BEDD8EF12BC61 /* Pods-Bluuur_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		387E81ED246432ECB739C5C873D2A590 /* Headers */ = {
+		8B0CCE85C6581DA40ECA80895B88F958 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45D04B1333ADFECFD6BFBE05610604C /* Bluuur-umbrella.h in Headers */,
-				B440322CD26E3E1AC80970D1CE0442C7 /* Bluuur.h in Headers */,
-				5A68C2EBBE8DEDAEDAD50D2291D47A4C /* MLWLiveBlurView.h in Headers */,
+				7890E2B7933326A12CC08BEE56A57091 /* Pods-Bluuur_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7AE4BAD1E4A1E57455760C85A98F7C8 /* Headers */ = {
+		F5CC207D63D991288EC4C4AF96502DB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E178E7F83F459339D0564EDD410774EF /* Pods-Bluuur_Example-umbrella.h in Headers */,
+				E37C316CC68DC0D8A3403DB8963F8D1E /* Bluuur-umbrella.h in Headers */,
+				5252191308B959FDBF72AEC59E977112 /* Bluuur.h in Headers */,
+				07C2E9F95814BCD714585F616C517359 /* MLWLiveBlurView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		289596D5A60735A6431997E12225F2E9 /* Pods-Bluuur_Tests */ = {
+		0C6428D5B829BCE6C54ECE2D559247E3 /* Bluuur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123D2299F46FBD93571AAEEA0FC60AAB /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Tests" */;
+			buildConfigurationList = A56779AE0B217C550AC1413E384EABD5 /* Build configuration list for PBXNativeTarget "Bluuur" */;
 			buildPhases = (
-				D09D11A988626B197B5ACEEC44449754 /* Sources */,
-				EB5BD60A603781F1F918BFE83979C025 /* Frameworks */,
-				14B37E745DFE55A67F5834410A8308B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Bluuur_Tests";
-			productName = "Pods-Bluuur_Tests";
-			productReference = 91044697EA28A30D8F5D94F746EA7707 /* Pods_Bluuur_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE557F304A2AA36B4A1EA4BA276E3BF0 /* Pods-Bluuur_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80102780878BA38948F5A707239AAF84 /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Example" */;
-			buildPhases = (
-				DB61973F20E25A0D2E4DAE3A31406F8F /* Sources */,
-				8D2C83593A0FA8E9FE2AA9C4ADB042E2 /* Frameworks */,
-				A7AE4BAD1E4A1E57455760C85A98F7C8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2AB871042F5061E504AE83B807B77ACE /* PBXTargetDependency */,
-			);
-			name = "Pods-Bluuur_Example";
-			productName = "Pods-Bluuur_Example";
-			productReference = 7A9E35CA75039D853427F4AA9C259F5C /* Pods_Bluuur_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ECC1C2FAB6594EE377FDE80918D182FD /* Bluuur */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BB5565D69BB83DB00F63DC95AD9AC79 /* Build configuration list for PBXNativeTarget "Bluuur" */;
-			buildPhases = (
-				E68AD8A09A4479A12186DB7ED9F172F8 /* Sources */,
-				D526FB17F25FF4C8F2E83C302DD29F1F /* Frameworks */,
-				387E81ED246432ECB739C5C873D2A590 /* Headers */,
+				C3182ABB5C7F70259695161AFF998C97 /* Sources */,
+				860FAB5ACA58A036834664C631AEB083 /* Frameworks */,
+				F5CC207D63D991288EC4C4AF96502DB3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,6 +277,41 @@
 			name = Bluuur;
 			productName = Bluuur;
 			productReference = 5B127193FC54496485B4E273CA1E34C5 /* Bluuur.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0B2AFBAAA05EDD365C5220D3B643A6E /* Pods-Bluuur_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A65E04AB38A5D21C40EDDF323C9C6 /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Example" */;
+			buildPhases = (
+				18F86369FFB9EAAE777ED634227EE80E /* Sources */,
+				84FB1B836AD149C748BE230C9637D228 /* Frameworks */,
+				8B0CCE85C6581DA40ECA80895B88F958 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05FDCE541A64572E7CFDCF3D8F3ADB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bluuur_Example";
+			productName = "Pods-Bluuur_Example";
+			productReference = 7A9E35CA75039D853427F4AA9C259F5C /* Pods_Bluuur_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBE68ACD91B0FF5937739D64F48AFB7F /* Pods-Bluuur_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FD7F316F07EAAE391A9A5584EA6B6C /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Tests" */;
+			buildPhases = (
+				40DDD1EA30AEBF48A8054E2CF37091CE /* Sources */,
+				80A68B2424412F404FC00ABE836555EF /* Frameworks */,
+				16DB14D644395CABA5DB9A6D63371F5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Bluuur_Tests";
+			productName = "Pods-Bluuur_Tests";
+			productReference = 91044697EA28A30D8F5D94F746EA7707 /* Pods_Bluuur_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -333,52 +335,118 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECC1C2FAB6594EE377FDE80918D182FD /* Bluuur */,
-				DE557F304A2AA36B4A1EA4BA276E3BF0 /* Pods-Bluuur_Example */,
-				289596D5A60735A6431997E12225F2E9 /* Pods-Bluuur_Tests */,
+				0C6428D5B829BCE6C54ECE2D559247E3 /* Bluuur */,
+				A0B2AFBAAA05EDD365C5220D3B643A6E /* Pods-Bluuur_Example */,
+				FBE68ACD91B0FF5937739D64F48AFB7F /* Pods-Bluuur_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D09D11A988626B197B5ACEEC44449754 /* Sources */ = {
+		18F86369FFB9EAAE777ED634227EE80E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2AA0A0B29F79E4027AB7D14B9BC831 /* Pods-Bluuur_Tests-dummy.m in Sources */,
+				73344FDFC6CF1846C70BC92C593C06BC /* Pods-Bluuur_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB61973F20E25A0D2E4DAE3A31406F8F /* Sources */ = {
+		40DDD1EA30AEBF48A8054E2CF37091CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B5D6A7CF6CC62953966D43C16C8A39 /* Pods-Bluuur_Example-dummy.m in Sources */,
+				12716F72C52BC60AD3EA9B23B9E56266 /* Pods-Bluuur_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E68AD8A09A4479A12186DB7ED9F172F8 /* Sources */ = {
+		C3182ABB5C7F70259695161AFF998C97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE0CD1AA24E0397C91F1435E5E6A64D /* Bluuur-dummy.m in Sources */,
-				7F7F15A0AC5CD9C949DE5C7D9456F6CC /* MLWLiveBlurView.m in Sources */,
+				A547BA2E4654CFC1D17F4CA9EE10D681 /* Bluuur-dummy.m in Sources */,
+				9DBCA395AB26700F98CFB118AC2358EF /* MLWLiveBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AB871042F5061E504AE83B807B77ACE /* PBXTargetDependency */ = {
+		C05FDCE541A64572E7CFDCF3D8F3ADB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bluuur;
-			target = ECC1C2FAB6594EE377FDE80918D182FD /* Bluuur */;
-			targetProxy = 7F9EB460EA3DC9B97A30C8B3A3854FBC /* PBXContainerItemProxy */;
+			target = 0C6428D5B829BCE6C54ECE2D559247E3 /* Bluuur */;
+			targetProxy = 91C6D0FC12CAF51E6FCBD7EB834681AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+		2F93FF4E279408B96A4D78ED810186C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF619C479C637B9C618995A90CCD0832 /* Pods-Bluuur_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bluuur_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bluuur_Tests/Pods-Bluuur_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bluuur_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46A739FA7215F9594E972CFC1EA06FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFB31BA2F56B96FA3507994EA5AD307 /* Bluuur.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bluuur/Bluuur-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bluuur/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bluuur/Bluuur.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bluuur;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,6 +464,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -415,47 +484,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		62B7C6B0B56EA4D8B2E71F30ACEB24CA /* Release */ = {
+		A4233CF107689F2084D8E7A85E68E105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CFB31BA2F56B96FA3507994EA5AD307 /* Bluuur.xcconfig */;
+			baseConfigurationReference = 0101E7EC5E40A7061129A15DB2810917 /* Pods-Bluuur_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Bluuur/Bluuur-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Bluuur/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Bluuur/Bluuur.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Bluuur;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		682F48F333145E371A0906006B6D6B7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF619C479C637B9C618995A90CCD0832 /* Pods-Bluuur_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -468,7 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Bluuur_Tests/Pods-Bluuur_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -480,13 +523,15 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		70A51FFEFCA1A5C7D6AAE8B7AA9847E5 /* Debug */ = {
+		A7F675A060482F8C1D6598803D4A4DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE506473F03C147C9C4A5CFC0164D097 /* Pods-Bluuur_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -515,69 +560,7 @@
 			};
 			name = Debug;
 		};
-		82149033F659D4B6C6E86BB724D36CE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CFB31BA2F56B96FA3507994EA5AD307 /* Bluuur.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Bluuur/Bluuur-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Bluuur/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Bluuur/Bluuur.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Bluuur;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2530D9768E255BB5C22C43E13481736 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3250DC9934F53A0A9B6D1C9A1ECF5730 /* Pods-Bluuur_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Bluuur_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bluuur_Example/Pods-Bluuur_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Bluuur_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,6 +578,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -609,17 +593,51 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EBC85B578851B1FACE87BAF0DA8A808B /* Release */ = {
+		F30AA227803D1099C33803547203B3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0101E7EC5E40A7061129A15DB2810917 /* Pods-Bluuur_Tests.release.xcconfig */;
+			baseConfigurationReference = 6CFB31BA2F56B96FA3507994EA5AD307 /* Bluuur.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bluuur/Bluuur-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bluuur/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bluuur/Bluuur.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bluuur;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF5D12515EC30284269DD0CC9BF26A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3250DC9934F53A0A9B6D1C9A1ECF5730 /* Pods-Bluuur_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -628,18 +646,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Bluuur_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bluuur_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bluuur_Tests/Pods-Bluuur_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Bluuur_Example/Pods-Bluuur_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Bluuur_Tests;
+				PRODUCT_NAME = Pods_Bluuur_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -651,38 +669,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		123D2299F46FBD93571AAEEA0FC60AAB /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				682F48F333145E371A0906006B6D6B7F /* Debug */,
-				EBC85B578851B1FACE87BAF0DA8A808B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034014829C1E4434983CF3A690C12017 /* Debug */,
-				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80102780878BA38948F5A707239AAF84 /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Example" */ = {
+		925A65E04AB38A5D21C40EDDF323C9C6 /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70A51FFEFCA1A5C7D6AAE8B7AA9847E5 /* Debug */,
-				B2530D9768E255BB5C22C43E13481736 /* Release */,
+				A7F675A060482F8C1D6598803D4A4DE7 /* Debug */,
+				FF5D12515EC30284269DD0CC9BF26A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BB5565D69BB83DB00F63DC95AD9AC79 /* Build configuration list for PBXNativeTarget "Bluuur" */ = {
+		94FD7F316F07EAAE391A9A5584EA6B6C /* Build configuration list for PBXNativeTarget "Pods-Bluuur_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82149033F659D4B6C6E86BB724D36CE9 /* Debug */,
-				62B7C6B0B56EA4D8B2E71F30ACEB24CA /* Release */,
+				2F93FF4E279408B96A4D78ED810186C2 /* Debug */,
+				A4233CF107689F2084D8E7A85E68E105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56779AE0B217C550AC1413E384EABD5 /* Build configuration list for PBXNativeTarget "Bluuur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30AA227803D1099C33803547203B3C5 /* Debug */,
+				46A739FA7215F9594E972CFC1EA06FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
