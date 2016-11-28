@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.blurView.blurProgress = 0.5;
+    self.blurView.blurProgress = 0.1;
 }
 
 - (IBAction)radiusChanged:(UISlider *)sender {
