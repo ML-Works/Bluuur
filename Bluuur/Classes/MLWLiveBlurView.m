@@ -47,14 +47,13 @@
 - (void)didMoveToWindow {
     [super didMoveToWindow];
     
-    [self updateLiveBlur];
+    [self appDidBecomeActive:nil];
 
     if (self.window) {
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidBecomeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
     }
     else {
         [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
-        
     }
 }
 
