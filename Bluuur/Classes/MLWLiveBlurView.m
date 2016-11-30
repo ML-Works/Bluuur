@@ -19,6 +19,14 @@
 
 #import "MLWLiveBlurView.h"
 
+@interface MLWLiveBlurView ()
+
+- (void)appDidBecomeActive:(NSNotification *)note;
+
+@end
+
+//
+
 @interface MLWLiveBlurLayer : CALayer
 
 @end
@@ -36,10 +44,6 @@
 @end
 
 //
-
-@interface MLWLiveBlurView ()
-
-@end
 
 @implementation MLWLiveBlurView
 
