@@ -29,13 +29,13 @@ Vestibulum non dui elementum, rhoncus sem a, venenatis ex. Vestibulum tristique 
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BOs-F3-KaR">
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="40" translatesAutoresizingMaskIntoConstraints="NO" id="BOs-F3-KaR">
                                 <rect key="frame" x="14" y="617" width="347" height="31"/>
                                 <connections>
                                     <action selector="radiusChanged:" destination="whP-gf-Uak" eventType="valueChanged" id="g9G-KE-4mp"/>
                                 </connections>
                             </slider>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azS-La-ISL" customClass="MLWLiveBlurView">
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azS-La-ISL" customClass="MLWBluuurView">
                                 <rect key="frame" x="113" y="259" width="150" height="150"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UIF-1d-8iJ">
                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -79,6 +79,7 @@ Vestibulum non dui elementum, rhoncus sem a, venenatis ex. Vestibulum tristique 
                     </view>
                     <connections>
                         <outlet property="blurView" destination="azS-La-ISL" id="N4m-JU-OF1"/>
+                        <outlet property="slider" destination="BOs-F3-KaR" id="wrf-VC-5Xs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -12,7 +12,8 @@
 
 @interface MLWViewController ()
 
-@property (weak, nonatomic) IBOutlet MLWLiveBlurView *blurView;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet MLWBluuurView *blurView;
 
 @end
 
@@ -21,11 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.blurView.blurProgress = 0.1;
+    self.blurView.blurRadius = self.slider.value;
 }
 
 - (IBAction)radiusChanged:(UISlider *)sender {
-    self.blurView.blurProgress = sender.value;
+    self.blurView.blurRadius = sender.value;
 }
 
 - (IBAction)pan:(UIPanGestureRecognizer *)recognizer {
