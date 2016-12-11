@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Bluuur'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'Native dynamic-radius live blur for iOS'
 
   s.description      = <<-DESC

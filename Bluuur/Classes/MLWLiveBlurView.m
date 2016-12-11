@@ -21,9 +21,39 @@
 
 @interface MLWLiveBlurView ()
 
+- (void)appDidBecomeActive:(NSNotification *)note;
+
 @end
 
+//
+
+@interface MLWLiveBlurLayer : CALayer
+
+@end
+
+@implementation MLWLiveBlurLayer
+
+- (void)addAnimation:(CAAnimation *)anim forKey:(NSString *)key {
+    self.speed = 1.0;
+    [super addAnimation:anim forKey:key];
+    
+    [NSObject cancelPreviousPerformRequestsWithTarget:self.delegate selector:@selector(appDidBecomeActive:) object:nil];
+    [(NSObject *)self.delegate performSelector:@selector(appDidBecomeActive:) withObject:nil afterDelay:anim.duration + 0.1];
+}
+
+@end
+
+//
+
 @implementation MLWLiveBlurView
+
++ (Class)layerClass {
+    return [MLWLiveBlurLayer class];
+}
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    return nil;
+}
 
 - (void)updateLiveBlur {
     if (!self.effect || !self.window) {
@@ -35,13 +65,13 @@
     [UIView animateWithDuration:1.0 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
         self.effect = effectToAnimate;
     } completion:nil];
-    [self.layer.sublayers setValue:@0.0 forKey:@"timeOffset"];
-    [self.layer.sublayers setValue:@0.0 forKey:@"speed"];
+    self.layer.timeOffset = 0.0;
+    self.layer.speed = 0.0;
 }
 
 - (void)setBlurProgress:(CGFloat)blurProgress {
     _blurProgress = blurProgress;
-    [self.layer.sublayers setValue:@(blurProgress) forKey:@"timeOffset"];
+    self.layer.timeOffset = blurProgress;
 }
 
 - (void)didMoveToWindow {
