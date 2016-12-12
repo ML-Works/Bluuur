@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07C2E9F95814BCD714585F616C517359 /* MLWLiveBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12716F72C52BC60AD3EA9B23B9E56266 /* Pods-Bluuur_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1B9A676EF8FF1CCFE16988A2B3648 /* Pods-Bluuur_Tests-dummy.m */; };
 		24B6735117D521B7EA5A7563A1B68194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5252191308B959FDBF72AEC59E977112 /* Bluuur.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC59614ECC365C9803EDE76589903DB /* Bluuur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5AD70BCB37A88C71055D338128A0E6 /* Bluuur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCA9477FAFAFD161B0567B4519B02C /* Bluuur-dummy.m */; };
+		531D24E40B91E7C98B5C7500B7A9AA1A /* Bluuur-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F829D5B03717FF6DAD466EA42B3392 /* Bluuur-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68260CC89B8B858608883E3465858347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		73344FDFC6CF1846C70BC92C593C06BC /* Pods-Bluuur_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6F577735D2E966BEAC45E8CD88CE1 /* Pods-Bluuur_Example-dummy.m */; };
 		7890E2B7933326A12CC08BEE56A57091 /* Pods-Bluuur_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 869CD6F059DFDB7A0CBA37E077B5BDC0 /* Pods-Bluuur_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8384389320B3E020C49BEDD8EF12BC61 /* Pods-Bluuur_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3D9470A6D11F87813D2DC820262597 /* Pods-Bluuur_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DBCA395AB26700F98CFB118AC2358EF /* MLWLiveBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */; };
-		A547BA2E4654CFC1D17F4CA9EE10D681 /* Bluuur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CCA9477FAFAFD161B0567B4519B02C /* Bluuur-dummy.m */; };
+		9716A2C615473D0243344CD999768373 /* MLWBluuurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8655F14E1DAF5B56D84F8E8094B125B1 /* MLWBluuurView.m */; };
+		A252902D9842FDA15858259A1A9EF3B7 /* MLWBluuurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 854D9AFBD6ED9375FE737A00D2713C55 /* MLWBluuurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE12167DB5DA7A5E1845A8CA3BD5FC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E37C316CC68DC0D8A3403DB8963F8D1E /* Bluuur-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F829D5B03717FF6DAD466EA42B3392 /* Bluuur-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF3BD29C27C0E7ED57A1929AED1F76DB /* Bluuur.h in Headers */ = {isa = PBXBuildFile; fileRef = E220ACCB202084FB077082F2F1E0E65A /* Bluuur.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,20 +50,20 @@
 		7A9E35CA75039D853427F4AA9C259F5C /* Pods_Bluuur_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bluuur_Example.framework; path = "Pods-Bluuur_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB52CF70E86BD88FB43EA758D6DFA35 /* Pods-Bluuur_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7F9A38AA8A143BE43F2C5CFE7CA83C3A /* Pods-Bluuur_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Tests-resources.sh"; sourceTree = "<group>"; };
+		854D9AFBD6ED9375FE737A00D2713C55 /* MLWBluuurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWBluuurView.h; sourceTree = "<group>"; };
+		8655F14E1DAF5B56D84F8E8094B125B1 /* MLWBluuurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWBluuurView.m; sourceTree = "<group>"; };
 		869CD6F059DFDB7A0CBA37E077B5BDC0 /* Pods-Bluuur_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bluuur_Example-umbrella.h"; sourceTree = "<group>"; };
 		8F3D9470A6D11F87813D2DC820262597 /* Pods-Bluuur_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bluuur_Tests-umbrella.h"; sourceTree = "<group>"; };
 		91044697EA28A30D8F5D94F746EA7707 /* Pods_Bluuur_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bluuur_Tests.framework; path = "Pods-Bluuur_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWLiveBlurView.h; sourceTree = "<group>"; };
 		AE506473F03C147C9C4A5CFC0164D097 /* Pods-Bluuur_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bluuur_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B32574052699E0A7E3E3295863F8F5B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08A11A009C184E0C3BCBAEA73926932 /* Pods-Bluuur_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bluuur_Example-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWLiveBlurView.m; sourceTree = "<group>"; };
 		D2DD7D1B1C8222EEDDBC483D7BFCC0D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED540707C34A4975DA8CB4BB91720F2 /* Pods-Bluuur_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bluuur_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1CCA9477FAFAFD161B0567B4519B02C /* Bluuur-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bluuur-dummy.m"; sourceTree = "<group>"; };
-		EEC59614ECC365C9803EDE76589903DB /* Bluuur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Bluuur.h; sourceTree = "<group>"; };
+		E220ACCB202084FB077082F2F1E0E65A /* Bluuur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Bluuur.h; sourceTree = "<group>"; };
 		F0A8AA546D3DC0BE260FD26E8057AAB4 /* Bluuur-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bluuur-prefix.pch"; sourceTree = "<group>"; };
 		FF619C479C637B9C618995A90CCD0832 /* Pods-Bluuur_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bluuur_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,21 +154,10 @@
 		85C1F0FA3CD74B3AAC94AA0DD0B0EB08 /* Bluuur */ = {
 			isa = PBXGroup;
 			children = (
-				9B4849272ECBED7FB20FC35C5E634549 /* Classes */,
+				E9054F1A2E31A159EE488AD10D3B12DC /* Classes */,
 			);
 			name = Bluuur;
 			path = Bluuur;
-			sourceTree = "<group>";
-		};
-		9B4849272ECBED7FB20FC35C5E634549 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EEC59614ECC365C9803EDE76589903DB /* Bluuur.h */,
-				A7E8515AA4678C7FEBCDEEE236125FC9 /* MLWLiveBlurView.h */,
-				D1861B2C16A72A06DA5CB06E6F588A81 /* MLWLiveBlurView.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -230,6 +219,17 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E9054F1A2E31A159EE488AD10D3B12DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E220ACCB202084FB077082F2F1E0E65A /* Bluuur.h */,
+				854D9AFBD6ED9375FE737A00D2713C55 /* MLWBluuurView.h */,
+				8655F14E1DAF5B56D84F8E8094B125B1 /* MLWBluuurView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -249,13 +249,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5CC207D63D991288EC4C4AF96502DB3 /* Headers */ = {
+		A56DD7F1267BAE120052E81FB835837A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37C316CC68DC0D8A3403DB8963F8D1E /* Bluuur-umbrella.h in Headers */,
-				5252191308B959FDBF72AEC59E977112 /* Bluuur.h in Headers */,
-				07C2E9F95814BCD714585F616C517359 /* MLWLiveBlurView.h in Headers */,
+				531D24E40B91E7C98B5C7500B7A9AA1A /* Bluuur-umbrella.h in Headers */,
+				CF3BD29C27C0E7ED57A1929AED1F76DB /* Bluuur.h in Headers */,
+				A252902D9842FDA15858259A1A9EF3B7 /* MLWBluuurView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +266,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A56779AE0B217C550AC1413E384EABD5 /* Build configuration list for PBXNativeTarget "Bluuur" */;
 			buildPhases = (
-				C3182ABB5C7F70259695161AFF998C97 /* Sources */,
+				A5F9C8C365B457A3AB801DE8E546CFEF /* Sources */,
 				860FAB5ACA58A036834664C631AEB083 /* Frameworks */,
-				F5CC207D63D991288EC4C4AF96502DB3 /* Headers */,
+				A56DD7F1267BAE120052E81FB835837A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -359,12 +359,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3182ABB5C7F70259695161AFF998C97 /* Sources */ = {
+		A5F9C8C365B457A3AB801DE8E546CFEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A547BA2E4654CFC1D17F4CA9EE10D681 /* Bluuur-dummy.m in Sources */,
-				9DBCA395AB26700F98CFB118AC2358EF /* MLWLiveBlurView.m in Sources */,
+				2E5AD70BCB37A88C71055D338128A0E6 /* Bluuur-dummy.m in Sources */,
+				9716A2C615473D0243344CD999768373 /* MLWBluuurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,6 @@
 #ifndef BLUUUR_H
 #define BLUUUR_H
 
-#import "MLWLiveBlurView.h"
+#import "MLWBluuurView.h"
 
 #endif // BLUUUR_H

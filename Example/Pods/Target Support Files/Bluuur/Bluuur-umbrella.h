@@ -3,7 +3,7 @@
 #endif
 
 #import "Bluuur.h"
-#import "MLWLiveBlurView.h"
+#import "MLWBluuurView.h"
 
 FOUNDATION_EXPORT double BluuurVersionNumber;
 FOUNDATION_EXPORT const unsigned char BluuurVersionString[];
