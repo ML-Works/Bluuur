@@ -65,24 +65,7 @@
 
 - (UIBlurEffect *)blurEffect {
     if (_blurEffect == nil) {
-        NSString *className = [[[[[[[[[[[[[[[[[[@"_" stringByAppendingString:@"U"]
-                                               stringByAppendingString:@"I"]
-                                              stringByAppendingString:@"C"]
-                                             stringByAppendingString:@"u"]
-                                            stringByAppendingString:@"s"]
-                                           stringByAppendingString:@"t"]
-                                          stringByAppendingString:@"o"]
-                                         stringByAppendingString:@"m"]
-                                        stringByAppendingString:@"B"]
-                                       stringByAppendingString:@"l"]
-                                      stringByAppendingString:@"u"]
-                                     stringByAppendingString:@"r"]
-                                    stringByAppendingString:@"E"]
-                                   stringByAppendingString:@"f"]
-                                  stringByAppendingString:@"f"]
-                                 stringByAppendingString:@"e"]
-                                stringByAppendingString:@"c"]
-                               stringByAppendingString:@"t"];
+        NSString *className = [@[@"_", @"U", @"I", @"C", @"u", @"s", @"t", @"o", @"m", @"B", @"l", @"u", @"r", @"E", @"f", @"f", @"e", @"c", @"t"] componentsJoinedByString:@""];
         _blurEffect = [[NSClassFromString(className) alloc] init];
     }
     return _blurEffect;
