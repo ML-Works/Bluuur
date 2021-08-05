@@ -6,6 +6,29 @@
 [![License](https://img.shields.io/cocoapods/l/Bluuur.svg?style=flat)](http://cocoapods.org/pods/Bluuur)
 [![Platform](https://img.shields.io/cocoapods/p/Bluuur.svg?style=flat)](http://cocoapods.org/pods/Bluuur)
 
+## Important Notice
+
+Since iOS 14 private APIs which Bluuur relied on were changed and the trick stopped working. However, there is a built-in quite an elegant way to set the blur radius using vanilla UIKit:
+
+```swift
+private let animator: UIViewPropertyAnimator
+
+func setup() {
+    let visualEffectView = UIVisualEffectView(effect: nil) // must be nil
+
+    animator = UIViewPropertyAnimator(duration: 1, curve: .linear, animations: {
+        visualEffectView.effect = UIBlurEffect(style: .regular)
+    })
+}
+
+...
+
+    // set the needed radius with a percentage:
+    animator.fractionComplete = 0.5
+```
+
+## Bluuur
+
 This UIVisualEffectsView subclass allows to dynamically adjust blur radius by changing property `blurRadius` from `0.0` for any.
 
 <img width="100%" src="images/This-is-Bluuur.jpg">
